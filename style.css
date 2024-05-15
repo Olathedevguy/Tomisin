@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Hugh"; 
+    src: url("./hugh/Hugh\ is\ Life\ Personal\ Use\ .ttf");
+}
+
+body {
+    padding: 0;
+    background-image: url("1714726341019.jpg");
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Hugh";
+    font-size: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.greeting p {
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 50px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border: 2px solid transparent;
+    background-color: #49648b;
+    color: white;
+}
+
+.btn:hover, .btn:focus {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+
+.scroll {
+    overflow-x: hidden;
+    white-space: nowrap;
+    padding: 20px 0;
+    position: relative;
+}
+
+.images {
+    margin-top: 80px;
+    display: inline-block;
+    width: 80vw;
+    margin-right: 10px;
+    max-width: 1000px;
+}
+
+img {
+    height: auto;
+    max-height: 200px; 
+    width: auto; 
+}
+video{
+    width: 90vw;
+    height: 95vh;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.portrait-vid{
+    height: 90vh;
+}
+
+
+@media screen and (max-width: 600px) {
+    .landscape-vid {
+        height: 25vh;
+    }
+    .portrait-vid{
+        height: 80vh;
+    }
+}
