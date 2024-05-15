@@ -79,16 +79,3 @@ video{
     display: block;
 }
 
-.portrait-vid{
-    height: 90vh;
-}
-
-
-@media screen and (max-width: 600px) {
-    .landscape-vid {
-        height: 25vh;
-    }
-    .portrait-vid{
-        height: 80vh;
-    }
-}
